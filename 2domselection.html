@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Selection</title>
+</head>
+<style>
+        * {
+            border: 2px solid #dedede;
+            padding: 15px;
+            margin: 15px;
+        }
+        html{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            max-width: 600px;
+            margin: 30px auto;
+            font-family: sans-serif;
+            color: #333;
+        }
+        #b p {
+            color: palevioletred;
+            background-color: blanchedalmond; }
+            li:nth-child(2) {
+                background-color: lightskyblue;
+            }
+    </style>
+<body>
+    <h1 id="judul">Belajar #2 DOM Selection</h1>
+    <div id="container">
+        <section id="a">
+            <p class="p1">Paragraf 1</p>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDOb09N1jJmf%2F%3Figsh%3DMWw0bGpkOHJoZWFxMA%253D%253D%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnzAP1uqXQr69r5BJvBLJTZUM8Lumv9MFKz6BCOu52DgoCCaT-fhw0Q6NP74Y_aem_YgC7YoWGiQ0Xd-tziTLm2Q&e=AT2cJG5YFAcFyOv1YNJyvncSqrY7-oEIL5Cz5IlvQ-J1TatLXdrsH31-h5dabN3cZWVCNboMmk9l8ti25LP37u2GWQegkcsZkS2_BUR1Ew">ig:andyalvyaazhr_</a>
+            <p class="p2">Paragraf 2</p>
+            <p class="p3">Paragraf 3</p>
+        </section>
+        <section id="b">
+            <p>Paragraf 4</p>
+            <ul>
+                <li>Ini ke 1</li>
+                <li>Ini ke 2</li>
+                <li>Ini ke 3</li>
+            </ul>
+        </section>
+    </div>
+    <script src="2domselection.js"></script>
+</body>
+</html>
